@@ -2,6 +2,9 @@ import { shallowMount } from '@vue/test-utils'
 import Message from '@/components/Message.vue'
 import Vue from 'vue'
 
+/**
+ * https://vue-test-utils.vuejs.org/zh/guides/#%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7
+ */
 describe('Message', () => {
   it('renders props.msg when passed', () => {
     const msg = 'new message'
